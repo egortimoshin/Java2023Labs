@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+    <VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="course.controllers.MainWindowController">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="New" />
+            <MenuItem mnemonicParsing="false" text="Open…" />
+            <Menu mnemonicParsing="false" text="Open Recent" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Close" />
+            <MenuItem mnemonicParsing="false" text="Save" />
+            <MenuItem mnemonicParsing="false" text="Save As…" />
+            <MenuItem mnemonicParsing="false" text="Revert" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Preferences…" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Quit" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Edit">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Undo" />
+            <MenuItem mnemonicParsing="false" text="Redo" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Cut" />
+            <MenuItem mnemonicParsing="false" text="Copy" />
+            <MenuItem mnemonicParsing="false" text="Paste" />
+            <MenuItem mnemonicParsing="false" text="Delete" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Select All" />
+            <MenuItem mnemonicParsing="false" text="Unselect All" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About MyHelloApp" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="7.0" prefHeight="92.0" prefWidth="626.0" style="-fx-background-radius: 30;" text="Select Laboratory program" textAlignment="CENTER" textFill="#121211" textOverrun="CENTER_WORD_ELLIPSIS">
+          <font>
+            <Font name="System Bold" size="27.0" />
+          </font>
+        </Label>
+            <Button fx:id="hero" layoutX="37.0" layoutY="113.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="163.0" style="-fx-background-color: #32b32b; -fx-background-radius: 25;" text="Hero">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="annotation" layoutX="37.0" layoutY="188.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="163.0" style="-fx-background-color: #32b32b; -fx-background-radius: 25;" text="Annotations" textOverrun="CLIP">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="segregation" layoutX="37.0" layoutY="266.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="163.0" style="-fx-background-color: #32b32b; -fx-background-radius: 25;" text="Segregation" textOverrun="CLIP">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="dictionary" layoutX="465.0" layoutY="113.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="163.0" style="-fx-background-color: #32b32b; -fx-background-radius: 25;" text="Dictionary" textOverrun="CLIP">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="streams" layoutX="465.0" layoutY="188.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="163.0" style="-fx-background-color: #32b32b; -fx-background-radius: 25;" text="Streams" textOverrun="CLIP">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="multithreading" layoutX="465.0" layoutY="266.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="163.0" style="-fx-background-color: #32b32b; -fx-background-radius: 25;" text="Multithreading" textOverrun="CLIP">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Button>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

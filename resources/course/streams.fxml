@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="course.controllers.StreamsController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button fx:id="compute" layoutX="288.0" layoutY="244.0" mnemonicParsing="false" onAction="#compute" text="Compute" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="270.0" layoutY="40.0" prefHeight="39.0" prefWidth="100.0" text="Select Method" />
+            <ListView fx:id="elements" layoutX="14.0" layoutY="14.0" prefHeight="359.0" prefWidth="200.0" />
+            <ListView fx:id="result" layoutX="426.0" layoutY="14.0" prefHeight="359.0" prefWidth="200.0" />
+            <TextField fx:id="element" layoutX="247.0" layoutY="348.0" promptText="Element..." />
+            <Button fx:id="addElement" layoutX="279.0" layoutY="315.0" mnemonicParsing="false" onAction="#addElement" text="Add element" />
+            <Button fx:id="menu" layoutX="256.0" layoutY="14.0" mnemonicParsing="false" text="Return to main menu" />
+            <ChoiceBox fx:id="methods" layoutX="247.0" layoutY="103.0" onAction="#selectMethod" prefWidth="150.0" />
+            <TextField fx:id="additional" alignment="CENTER" layoutX="290.0" layoutY="211.0" prefHeight="25.0" prefWidth="65.0" promptText="symbol" />
+            <Button fx:id="clear" layoutX="301.0" layoutY="281.0" mnemonicParsing="false" text="Clear" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

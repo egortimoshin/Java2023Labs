@@ -1,0 +1,6 @@
+Hello | привет
+Hello | хай
+Who is it | Кто это
+Dog | собака
+Beer | Пиво
+hello : здравствуйте
